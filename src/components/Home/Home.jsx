@@ -13,7 +13,7 @@ const Home = () => {
         // console.log(tshirt);
         const exit=cart.find(ts=>ts._id===tshirt._id)
         if(exit){
-            toast('You have already added a t-shirt')
+            toast.success('You have already added a t-shirt')
         }
         else{
 
